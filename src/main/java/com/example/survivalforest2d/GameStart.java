@@ -17,6 +17,8 @@ public class GameStart extends Application {
 
         Scene scene = new Scene(fxmlLoader.load(), SCREEN_WIDTH, SCREEN_HEIGHT);
 
+
+
         scene.getStylesheets().add(GameStart.class.getResource("Application.css").toExternalForm());
 
         stage.setTitle("SurvivalForest2D!");
